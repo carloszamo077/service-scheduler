@@ -15,7 +15,8 @@ public class Info {
 
 	@EventListener(ApplicationReadyEvent.class)
 	public void contextRefreshedEvent() {
-		LOGGER.info("\n************************************" + "\nSCHEDULER INICIALIZADO CORRECTAMENTE"
+		LOGGER.info("\n************************************" 
+				+ "\nSCHEDULER INICIALIZADO CORRECTAMENTE"
 				+ "\n************************************");
 	}
 }

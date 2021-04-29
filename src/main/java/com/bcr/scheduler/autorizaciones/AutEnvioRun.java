@@ -21,30 +21,6 @@ public class AutEnvioRun {
 
 	private static final SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
 
-	@Value("${app.codigo}")
-	private String appCodigo;
-
-	@Value("${app.db.divisibilidad}")
-	private String divisibilidad;
-
-	@Value("${app.db.fetch.size}")
-	private int fetchSize;
-
-	@Value("${app.api.envio}")
-	private String apiEnvioAutorizaciones;
-
-	@Value("${app.timeout}")
-	private int timeout;
-
-	@Value("${app.fixed.delay.envio}")
-	private int fixedDelayEnvioAut;
-
-	@Value("${app.fixed.delay.reenvio}")
-	private int fixedDelayReenvioAut;
-
-	@Value("${app.db.max.dias}")
-	private int maxDias;
-
 	public AutEnvioRun() {
 	}
 
